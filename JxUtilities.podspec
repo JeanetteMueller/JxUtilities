@@ -31,5 +31,5 @@ Swift API for iOS to work with fyyd.de
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Classes/**/*'
-
+  s.dependency 'DeviceKit'
 end
