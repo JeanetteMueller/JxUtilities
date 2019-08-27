@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JxUtilities'
-  s.version          = '0.2'
+  s.version          = '0.2.1'
   s.summary          = 'Helpful Swift Utilities'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Swift API for iOS to work with fyyd.de
+Helpful Swift Utilities
                        DESC
 
   s.homepage         = 'https://github.com/JeanetteMueller/JxUtilities'
@@ -30,6 +30,6 @@ Swift API for iOS to work with fyyd.de
 
   s.ios.deployment_target = '10.3'
 
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'Classes/*'
   s.dependency 'DeviceKit'
 end
