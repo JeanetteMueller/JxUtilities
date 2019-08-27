@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JxUtilities'
-  s.version          = '0.1'
+  s.version          = '0.2'
   s.summary          = 'Helpful Swift Utilities'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Swift API for iOS to work with fyyd.de
   s.source           = { :git => 'https://github.com/JeanetteMueller/JxUtilities.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/JeanetteMueller'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
 
   s.source_files = 'Classes/**/*'
   s.dependency 'DeviceKit'
