@@ -25,6 +25,8 @@ extension UIView {
         if UIGraphicsGetCurrentContext() != nil {
             // Render the view into the current graphics context
             self.drawHierarchy(in: self.bounds, afterScreenUpdates: false)
+
+            self.layer.render(in: UIGraphicsGetCurrentContext()!)
             
             // Create an image from the current graphics context
             let image = UIGraphicsGetImageFromCurrentImageContext()

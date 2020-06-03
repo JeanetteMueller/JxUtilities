@@ -23,3 +23,4 @@ func log(_ items: Any..., separator: String, terminator: String) {
     print(items, separator: separator, terminator: terminator)
     #endif
 }
+
